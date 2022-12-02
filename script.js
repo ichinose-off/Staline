@@ -10,6 +10,6 @@ window.addEventListener("load", () => {
 const musicPath = "music.mp3";
 const audio = new Audio(musicPath);
 audio.loop = true;
-audio.addEventListener("canplaythrough", () => {
+window.addEventListener("mousemove", () => {
   audio.play();
-})
+});
