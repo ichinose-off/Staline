@@ -8,8 +8,8 @@ window.addEventListener("load", () => {
 })
 
 const musicPath = "res/music.mp3";
+const audio = new Audio(musicPath);
 window.addEventListener("mousemove", () => {
-  const audio = new Audio(musicPath);
   audio.loop = true;
   audio.play();
 });
