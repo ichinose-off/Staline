@@ -8,8 +8,8 @@ window.addEventListener("load", () => {
 })
 
 const musicPath = "music.mp3";
-
 const audio = new Audio(musicPath);
 audio.loop = true;
-audio.autoplay = true;
-audio.play();
+audio.addEventListener("canplaythrough", () => {
+  audio.play();
+})
