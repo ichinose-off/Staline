@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
   alert(msg);
 })
 
-const musicPath = "music.mp3";
+const musicPath = "res/music.mp3";
 const audio = new Audio(musicPath);
 audio.loop = true;
 window.addEventListener("mousemove", () => {
