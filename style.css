@@ -89,7 +89,7 @@ body.cutY {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background-image: url(face.svg);
+  background-image: url(./res/face.svg);
   background-repeat: no-repeat;
   background-position: 105%;
   background-size: 87vh;
