@@ -9,5 +9,7 @@ window.addEventListener("load", () => {
 
 const musicPath = "res/music.mp3";
 const audio = new Audio(musicPath);
-audio.autoplay = true;
 audio.loop = true;
+window.addEventListener("mousemove", () => {
+  audio.play();
+});
